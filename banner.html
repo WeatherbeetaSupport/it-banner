@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  margin: 0;
+}
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  background-color: #fff4e5;
+  color: #cc3300;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+}
+.marquee p {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-left 12s linear infinite;
+}
+@keyframes scroll-left {
+  from { transform: translateX(100%); }
+  to { transform: translateX(-100%); }
+}
+</style>
+</head>
+<body>
+<div class="marquee">
+  <p>⚠️ Scheduled Maintenance: The IT Helpdesk will be unavailable from 8 PM – 10 PM tonight. Please plan accordingly. ⚠️</p>
+</div>
+</body>
+</html>
